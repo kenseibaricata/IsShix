@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 医式（IsShix）- 在宅医療の事務負担をゼロに
 
-## Getting Started
+全国の医療現場のノウハウと改善事例が、水のように自然で円滑に流通する仕組みを実現する医療AI ソリューションのランディングページです。
 
-First, run the development server:
+## 🎯 ミッション
+
+- 日本全国の医療現場における情報系業務の負荷を限りなくゼロにする
+- 超高齢化社会における医療現場の人手不足問題への具体的な解決策を提供
+- 多職種連携を加速させ、医療品質のさらなる向上を実現
+
+## 🚀 主要機能
+
+- **FAX自動振り分け**: AI仕分け精度99%以上
+- **AIカルテ記事自動生成**: 迅速かつ正確な記録
+- **患者サマリー自動LINE通知**: 情報共有の効率化
+- **多職種連携支援**: チーム医療を支援
+
+## 💡 導入効果
+
+- **月間160時間削減**: 常勤スタッフ1名分の余裕を創出
+- **99%の高精度**: AI による自動処理を実現
+- **80%記録時間短縮**: カルテ記入の大幅効率化
+
+## 🛡️ セキュリティ・規制対応
+
+- FHIR標準対応
+- 3省2ガイドライン遵守
+- データ国内保管
+
+## 💰 料金プラン
+
+| プラン | 月額 | 初期費用 | 主な機能 |
+|--------|------|----------|----------|
+| Basic | 5万円 | 30万円 | FAX振り分け、LINE通知 |
+| Pro | 7.5万円 | 40万円 | Basic + AIカルテ生成、サマリー |
+| Premium | 10万円 | 50万円 | Pro + AI治療提案、優先サポート |
+
+## 🛠️ 技術スタック
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Deployment**: Vercel
+
+## 🚀 デプロイ手順
+
+### Vercelでのデプロイ
+
+1. [Vercel](https://vercel.com) にアクセスしてサインアップ/ログイン
+2. 「New Project」をクリック
+3. GitHubリポジトリ「isshix」を選択
+4. 「Deploy」をクリック
+
+### 環境変数の設定（必要に応じて）
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# .env.local ファイルに以下を追加
+NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧑‍💻 開発環境のセットアップ
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# 依存関係のインストール
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 開発サーバーの起動
+npm run dev
 
-## Learn More
+# ビルド
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+# 本番環境の起動
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 ライセンス
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+© 2024 IsShix. All rights reserved.
 
-## Deploy on Vercel
+## 📞 お問い合わせ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+詳細については、ランディングページのお問い合わせフォームまたは以下の連絡先までご連絡ください。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 電話: 0120-XXX-XXX（平日9:00-18:00）
+- Email: info@isshix.com
